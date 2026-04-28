@@ -257,21 +257,21 @@ $\sigma_{j}^{-}$ y $\sigma_{j}^{+}$ son las conductividades de los compartimento
 
 ---
 layout: pageBar
-title: Obejtivos
+title: Objetivos
 ---
 
-# Hipótesis y Obejtivos
+# Hipótesis y Objetivos
 .
 
 **Hipótesis**
 
 Existen rangos de error tolerables al definir una razón de conductividad eléctrica cerebro/cráneo en la solución del problema inverso en EEG y la tolerancia estará dictada por la frontera de Cramér-Rao.
 
-**Obejtivo Principal**
+**Objetivo Principal**
 
 Implementar un método de estimación del error incurrido en la localización de fuentes de actividad neuronal al resolver el problema inverso con diferentes valores de la razón de conductividad eléctrica cerebro/cráneo, basado en el cálculo de modelos de electroencefalograma en geometrías realistas obtenidas con el método de elementos de frontera.
 
-**Obejtivos Particulares**
+**Objetivos Particulares**
 
 - Implementar la solución del problema directo en EEG en geometrías realistas con diferentes valores de la razón de conductividad eléctrica cerebro/cráneo, utilizando un dipolo de corriente eléctrica como modelo de un evento de respuesta evocada en distintas zonas de la corteza cerebral representando fuentes de actividad neuronal, y con un nivel de ruido variable.
 - Calcular el problema inverso en EEG probando los diferentes valores de la razón de conductividad eléctrica cerebro/cráneo en las soluciones del problema directo, y obtener el error incurrido en la localización de fuentes de actividad neuronal entre las utilizadas en la solución del problema directo y las obtenidas en el problema inverso.
@@ -282,7 +282,7 @@ Implementar un método de estimación del error incurrido en la localización de
 
 ---
 layout: pageBar
-title: "Métodología - Método Propuesto"
+title: "Metodología - Método Propuesto"
 ---
 
 # Metodología
@@ -311,7 +311,7 @@ Se utiliza la frontera de Cramer-Rao para verificar el desempeño del estimador 
 
 ---
 layout: pageBar
-title: "Métodología - Proceso"
+title: "Metodología - Proceso"
 ---
 
 # Metodología
@@ -348,7 +348,7 @@ Explicar el método propuesto:
 
 ---
 layout: pageBar
-title: "Métodología - Construcción del Modelo Geométrico Realista"
+title: "Metodología - Construcción del Modelo Geométrico Realista"
 ---
 
 # Metodología
@@ -388,7 +388,7 @@ Modelo 2008
 
 ---
 layout: pageBar
-title: "Métodología - Modelo Geométrico Realista"
+title: "Metodología - Modelo Geométrico Realista"
 ---
 
 # Metodología
@@ -436,7 +436,7 @@ Here is another comment.
 
 ---
 layout: pageBar
-title: "Métodología - Arreglo de Electrodos de EEG"
+title: "Metodología - Arreglo de Electrodos de EEG"
 ---
 # Arreglo de Electrodos de EEG
 Metodología
@@ -450,7 +450,7 @@ Metodología
 
 ---
 layout: pageBar
-title: "Métodología - Modelo Geométrico Realista Completo"
+title: "Metodología - Modelo Geométrico Realista Completo"
 ---
 # Modelo Geométrico Realista Completo
 Metodología
@@ -693,7 +693,7 @@ Metodología
 
 ---
 layout: pageBar
-title: "Métodología - Problema Inverso"
+title: "Metodología - Problema Directo"
 ---
 
 # Proceso del Problema Directo
@@ -747,7 +747,7 @@ donde *Source* es la señal de EEG simulada y *SNR* es la razón señal/ruido.
 
 ---
 layout: pageBar
-title: "Métodología - Problema Inverso"
+title: "Metodología - Problema Inverso"
 ---
 
 # Solución del Problema Inverso
@@ -791,7 +791,7 @@ stateDiagram-v2
   
 ---
 layout: pageBar
-title: "Métodología - Error de Localización"
+title: "Metodología - Error de Localización"
 ---
 
 # Cuantificación del Error de Localización
@@ -828,7 +828,7 @@ d3 = 76.92.17 cm2
  -->
 ---
 layout: pageBar
-title: "Métodología - Error de Localización"
+title: "Metodología - Error de Localización"
 ---
 
 # Estandarización del Error de Localización
@@ -851,7 +851,7 @@ Metodología
 
 ---
 layout: pageBar
-title: "Métodología - Análisis Estadístico"
+title: "Metodología - Análisis Estadístico"
 ---
 
 # Análisis Estadístico
@@ -903,7 +903,7 @@ donde $q$ es la magnitud del dipolo en el instante de 397.2 ms, $\text{L}$ es la
 
 ---
 layout: pageBar
-title: "Métodología - Análisis Estadístico"
+title: "Metodología - Análisis Estadístico"
 ---
 
 # Proceso del Análisis Estadístico
@@ -1145,7 +1145,7 @@ title: "Resultados - Evaluación del Error"
 # Evaluación del Error Incurrido
 Resultados
 
-Error incurrido en la localización de la fuente de actividad neuronal en con
+Error incurrido en la localización de la fuente de actividad neuronal con
 el dipolo en la zona visual y los tres niveles de SNR
 
 <div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
@@ -1175,7 +1175,7 @@ title: "Resultados - Evaluación del Error"
 # Evaluación del Error Incurrido
 Resultados
 
-Error incurrido en la localización de la fuente de actividad neuronal en con
+Error incurrido en la localización de la fuente de actividad neuronal con
 el dipolo en la zona visual y los tres niveles de SNR
 
 <div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
@@ -1205,7 +1205,7 @@ title: "Resultados - Evaluación del Error"
 # Evaluación del Error Incurrido
 Resultados
 
-Error incurrido en la localización de la fuente de actividad neuronal en con
+Error incurrido en la localización de la fuente de actividad neuronal con
 el dipolo en la zona visual y los tres niveles de SNR
 
 <div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
@@ -1439,6 +1439,217 @@ Conclusiones
 
 
 ---
+layout: center
+class: text-center
+---
+
+# ¡Gracias por su atención!
+
+<PoweredBySlidev mt-10 />
+
+
+
+---
+layout: center
+class: text-center
+---
+
+# Apéndice
+
+
+
+---
+layout: pageBar
+title: "Anexo - Resultados Somatosensorial"
+---
+
+# Evaluación del Error Incurrido
+Resultados
+
+Error incurrido en la localización de la fuente de actividad neuronal con
+el dipolo en la zona somatosensorial y los tres niveles de SNR
+
+<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
+
+  <!-- Third Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d1c9n1.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 1%.</p>
+    </div>
+  </div>
+
+  <!-- Fourth Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d1c10n1.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 1%.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: pageBar
+title: "Anexo - Resultados Somatosensorial"
+---
+
+# Evaluación del Error Incurrido
+Resultados
+
+Error incurrido en la localización de la fuente de actividad neuronal con
+el dipolo en la zona somatosensorial y los tres niveles de SNR
+
+<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
+
+  <!-- Third Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d1c9n2.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 5%.</p>
+    </div>
+  </div>
+
+  <!-- Fourth Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d1c10n2.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 5%.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: pageBar
+title: "Anexo - Resultados Somatosensorial"
+---
+
+# Evaluación del Error Incurrido
+Resultados
+
+Error incurrido en la localización de la fuente de actividad neuronal con
+el dipolo en la zona somatosensorial y los tres niveles de SNR
+
+<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
+
+  <!-- Third Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d1c9n3.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 10%.</p>
+    </div>
+  </div>
+
+  <!-- Fourth Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d1c10n3.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 10%.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: pageBar
+title: "Anexo - Resultados Auditiva"
+---
+
+# Evaluación del Error Incurrido
+Resultados
+
+Error incurrido en la localización de la fuente de actividad neuronal con
+el dipolo en la zona auditiva y los tres niveles de SNR
+
+<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
+
+  <!-- Third Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d3c9n1.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 1%.</p>
+    </div>
+  </div>
+
+  <!-- Fourth Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d3c10n1.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 1%.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: pageBar
+title: "Anexo - Resultados Auditiva"
+---
+
+# Evaluación del Error Incurrido
+Resultados
+
+Error incurrido en la localización de la fuente de actividad neuronal con
+el dipolo en la zona auditiva y los tres niveles de SNR
+
+<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
+
+  <!-- Third Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d3c9n2.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 5%.</p>
+    </div>
+  </div>
+
+  <!-- Fourth Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d3c10n2.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 5%.</p>
+    </div>
+  </div>
+</div>
+
+---
+layout: pageBar
+title: "Anexo - Resultados Auditiva"
+---
+
+# Evaluación del Error Incurrido
+Resultados
+
+Error incurrido en la localización de la fuente de actividad neuronal con
+el dipolo en la zona auditiva y los tres niveles de SNR
+
+<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
+
+  <!-- Third Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d3c9n3.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 10%.</p>
+    </div>
+  </div>
+
+  <!-- Fourth Cell -->
+  <div class="flex flex-col items-center justify-center p-2">
+    <div class="w-full max-w-lg h-full flex flex-col justify-between">
+      <img src="./results/individual_graphs/d3c10n3.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
+      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 10%.</p>
+    </div>
+  </div>
+</div>
+
+
+
+---
+layout: center
+class: text-center
+---
+
+# Diapositivas de Ejemplo
+
+
+
+---
 
 # Clicks Animations
 
@@ -1497,200 +1708,3 @@ $$ {1|3|all}
 $$
 
 [Learn more](https://sli.dev/features/latex)
-
-
-
-
----
-layout: center
-class: text-center
----
-
-# ¡Gracias por su atención!
-
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
-
-<PoweredBySlidev mt-10 />
-
-
-
----
-layout: pageBar
-title: "Anexo - Resultados Somatosensorial"
-
----
-
-# Evaluación del Error Incurrido
-Resultados
-
-Error incurrido en la localización de la fuente de actividad neuronal en con
-el dipolo en la zona somatosensorial y los tres niveles de SNR
-
-<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
-
-  <!-- Third Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d1c9n1.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 1%.</p>
-    </div>
-  </div>
-
-  <!-- Fourth Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d1c10n1.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 1%.</p>
-    </div>
-  </div>
-</div>
-
----
-layout: pageBar
-title: "Anexo - Resultados Somatosensorial"
----
-
-# Evaluación del Error Incurrido
-Resultados
-
-Error incurrido en la localización de la fuente de actividad neuronal en con
-el dipolo en la zona somatosensorial y los tres niveles de SNR
-
-<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
-
-  <!-- Third Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d1c9n2.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 5%.</p>
-    </div>
-  </div>
-
-  <!-- Fourth Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d1c10n2.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 5%.</p>
-    </div>
-  </div>
-</div>
-
----
-layout: pageBar
-title: "Anexo - Resultados Somatosensorial"
----
-
-# Evaluación del Error Incurrido
-Resultados
-
-Error incurrido en la localización de la fuente de actividad neuronal en con
-el dipolo en la zona somatosensorial y los tres niveles de SNR
-
-<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
-
-  <!-- Third Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d1c9n3.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 10%.</p>
-    </div>
-  </div>
-
-  <!-- Fourth Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d1c10n3.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 10%.</p>
-    </div>
-  </div>
-</div>
-
----
-layout: pageBar
-title: "Anexo - Resultados Somatosensorial"
----
-
-# Evaluación del Error Incurrido
-Resultados
-
-Error incurrido en la localización de la fuente de actividad neuronal en con
-el dipolo en la zona auditiva y los tres niveles de SNR
-
-<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
-
-  <!-- Third Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d3c9n1.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 1%.</p>
-    </div>
-  </div>
-
-  <!-- Fourth Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d3c10n1.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 1%.</p>
-    </div>
-  </div>
-</div>
-
----
-layout: pageBar
-title: "Anexo - Resultados Somatosensorial"
----
-
-# Evaluación del Error Incurrido
-Resultados
-
-Error incurrido en la localización de la fuente de actividad neuronal en con
-el dipolo en la zona auditiva y los tres niveles de SNR
-
-<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
-
-  <!-- Third Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d3c9n2.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 5%.</p>
-    </div>
-  </div>
-
-  <!-- Fourth Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d3c10n2.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 5%.</p>
-    </div>
-  </div>
-</div>
-
----
-layout: pageBar
-title: "Anexo - Resultados Somatosensorial"
----
-
-# Evaluación del Error Incurrido
-Resultados
-
-Error incurrido en la localización de la fuente de actividad neuronal en con
-el dipolo en la zona auditiva y los tres niveles de SNR
-
-<div class="w-full h-full grid grid-cols-2 gap-2 items-stretch justify-stretch">
-
-  <!-- Third Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d3c9n3.png" alt="EEG BSCR 80" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 20 y SNR = 10%.</p>
-    </div>
-  </div>
-
-  <!-- Fourth Cell -->
-  <div class="flex flex-col items-center justify-center p-2">
-    <div class="w-full max-w-lg h-full flex flex-col justify-between">
-      <img src="./results/individual_graphs/d3c10n3.png" alt="EEG BSCR 200" class="rounded h-auto max-h-full">
-      <p class="text-center text-m mt-2">Error en la localización de la fuente de actividad neuronal con BSCR = 80 y SNR = 10%.</p>
-    </div>
-  </div>
-</div>
